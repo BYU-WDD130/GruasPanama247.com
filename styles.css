@@ -1,0 +1,287 @@
+:root {
+    --primary: #111111;
+    --accent: #E31B23;
+    --accent-hover: #b51218;
+    --bg-light: #F8F9FA;
+    --text-main: #333333;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-main);
+    background-color: var(--white);
+    line-height: 1.6;
+    padding-bottom: 70px; /* Espacio para el botón flotante en móvil */
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background: var(--primary);
+    color: var(--white);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.highlight {
+    color: var(--accent);
+}
+
+.top-call-btn {
+    background-color: var(--accent);
+    color: var(--white);
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #111111 0%, #222222 100%);
+    color: var(--white);
+    padding: 50px 0;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.badge {
+    background-color: rgba(227, 27, 35, 0.2);
+    color: #ff4d55;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.hero-text h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+.hero-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-primary {
+    background-color: var(--accent);
+    color: var(--white);
+    padding: 16px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.1rem;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(227, 27, 35, 0.4);
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-hover);
+}
+
+.sub-cta {
+    font-size: 0.85rem;
+    color: #999999;
+    text-align: center;
+}
+
+/* Hero Card Lateral */
+.hero-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.hero-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.hero-card ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.hero-card ul li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #dddddd;
+}
+
+.btn-secondary {
+    display: block;
+    background: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+/* Beneficios */
+.benefits {
+    padding: 50px 0;
+    background-color: var(--bg-light);
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 1.6rem;
+    margin-bottom: 35px;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.benefit-box {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.benefit-box .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.benefit-box h3 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.benefit-box p {
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+/* Cobertura */
+.coverage {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.coverage h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.coverage p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tag {
+    background: #eaeaea;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Footer */
+.footer {
+    background: #0a0a0a;
+    color: #777;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.85rem;
+}
+
+/* Botón Flotante para Móviles */
+.floating-cta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--accent);
+    padding: 12px;
+    text-align: center;
+    z-index: 999;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.2);
+}
+
+.float-btn {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1rem;
+    display: block;
+    letter-spacing: 0.5px;
+}
+
+/* Media Queries para Escritorio */
+@media (min-width: 768px) {
+    .hero-container {
+        grid-template-columns: 1.2fr 0.8fr;
+        align-items: center;
+    }
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+    .benefits-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .floating-cta {
+        display: none;
+    }
+    body {
+        padding-bottom: 0;
+    }
+}
