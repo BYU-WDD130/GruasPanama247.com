@@ -1,0 +1,23 @@
+<svg xmlns="http://w3.org" viewBox="0 0 600 180" width="600" height="180">
+  <!-- Fondo oscuro con esquinas redondeadas -->
+  <rect width="600" height="180" rx="16" fill="#111827"/>
+  
+  <!-- Franja decorativa superior -->
+  <rect x="0" y="0" width="600" height="10" rx="5" fill="#F59E0B"/>
+
+  <!-- Texto principal: GruasPanama -->
+  <text x="35" y="95" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="48" fill="#FFFFFF" letter-spacing="-1">
+    Gruas<tspan fill="#F59E0B">Panama</tspan>
+  </text>
+
+  <!-- Etiqueta destacada: 24/7 -->
+  <rect x="425" y="46" width="135" height="62" rx="10" fill="#F59E0B"/>
+  <text x="492" y="91" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="40" fill="#111827" text-anchor="middle">
+    24/7
+  </text>
+
+  <!-- Subtítulo: ASISTENCIA VIAL EXPRESS -->
+  <text x="37" y="138" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#9CA3AF" letter-spacing="4">
+    ASISTENCIA VIAL EXPRESS
+  </text>
+</svg>

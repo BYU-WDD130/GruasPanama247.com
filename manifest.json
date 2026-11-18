@@ -1,0 +1,17 @@
+{
+  "name": "Grúas Panamá 24/7",
+  "short_name": "Grúas PTY",
+  "description": "Servicio de remolque y auxilio vial 24/7 en la Ciudad de Panamá.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#E31B23",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}

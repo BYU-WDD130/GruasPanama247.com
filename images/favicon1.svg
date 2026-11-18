@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="104" fill="#1A1D24"/>
+  <rect x="0" y="0" width="34" height="512" rx="12" fill="#FFB800"/>
+  <!-- Simplified tow truck -->
+  <g fill="none" stroke="#FFB800" stroke-width="25" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M112 292h190l54 54h58v54H112z" fill="#FFB800" stroke="none"/>
+    <path d="M302 292h48l54 54h-102z" fill="#1A1D24" stroke="none"/>
+    <path d="M112 292h190l54 54h58v54H112z"/>
+    <path d="M112 292v-70h132l58 70"/>
+    <path d="M244 222v70"/>
+    <path d="M350 292l42 54"/>
+    <path d="M160 400a34 34 0 1 0 68 0a34 34 0 1 0-68 0z" fill="#1A1D24"/>
+    <path d="M330 400a34 34 0 1 0 68 0a34 34 0 1 0-68 0z" fill="#1A1D24"/>
+    <path d="M282 212l48-42 38 38-43 42"/>
+    <path d="M330 170l32-32"/>
+    <path d="M362 138l28 28"/>
+  </g>
+  <path d="M112 292h190l54 54H112z" fill="#FFB800" opacity=".16"/>
+  <text x="256" y="112" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="900" fill="#FFFFFF">GP</text>
+  <text x="256" y="476" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="900" letter-spacing="5" fill="#FFB800">24/7</text>
+</svg>
